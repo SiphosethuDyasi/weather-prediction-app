@@ -1,50 +1,54 @@
-# Welcome to your Expo app 👋
+# Welcome to the Weather App 🌤️
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Features ✨
+- Search for weather in any city worldwide.
+- View **hourly** and **weekly** weather forecasts.
+- Dynamic icons that reflect real-time weather conditions.
+- Add cities to your **favourites** and view their details.
 
-## Get started
+This is an [Expo](https://expo.dev) project.
 
-1. Install dependencies
+## Demo 🎥
 
+[Watch the app in action](https://github.com/SiphosethuDyasi/weather-prediction-app/issues/1)
+
+## Installation  
+
+### Prerequisites  
+Ensure you have [Node.js](https://nodejs.org/) installed. 
+
+### Get Started  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/SiphosethuDyasi/weather-prediction-app
+   cd weather-prediction-app
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Start the app:
    ```bash
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Scan the QR code in the terminal using [Expo Go](https://expo.dev/go) to run the app on your device.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## API Usage 📡
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+This app fetches data from the Weather API to provide real-time weather updates.
+- The API returns data in JSON format, including temperature, humidity, wind speed, and weather conditions.
+- The app makes GET requests to fetch weather data for the searched city.
+- Favourite cities are stored locally within the app.
 
-## Get a fresh project
+## Technologies Used 🛠️
+- **React Native** (Framework)
+- **Expo** (App development & deployment)
+- **Weather API** (Live weather data)
+- **Async Storage** (For storing favourite cities locally)
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## License 📜
+This project is open-source and available under the MIT License.
