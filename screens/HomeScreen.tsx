@@ -227,9 +227,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({navigation, route}: any) => {
                         </View>
 
                         <HourlyForecast weather={weather}/>
-
                         <DailyForecast weather={weather}/>
-
                     </SafeAreaView>
                 )
             }
